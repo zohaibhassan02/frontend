@@ -16,7 +16,6 @@
   "dependencies": {
     "@formkit/drag-and-drop": "^0.1.0",
     "@headlessui/react": "^1.7.17",
-    "@supabase/supabase-js": "^2.42.4",
     "@tabler/icons-react": "^3.2.0",
     "@types/node": "^20.10.4",
     "@types/react": "^18.2.42",
