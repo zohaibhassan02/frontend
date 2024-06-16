@@ -29,7 +29,7 @@ const Home = () => {
     closeModal();
     if (actionType === "getQRCode") {
       try {
-        const response = await generateQRCodePDF({ link: `https://yeasty.vrexx.org/my-menu?category=${selectedOption}` });
+        const response = await generateQRCodePDF({ link: `http://localhost:3000/my-menu?category=${selectedOption}` });
         if (response.status === 200) {
           const blob = new Blob([response.data], { type: 'application/pdf' });
           const url = window.URL.createObjectURL(blob);
